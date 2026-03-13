@@ -2,19 +2,14 @@
 
 ## Problem Statement
 
-Build an autonomous AI system diagnosis agent that can:
+* Build an autonomous AI system diagnosis agent that can:
+* continuously collect raw system logs + machine metrics
+* detect related abnormal events
+* correlate them automatically
+* infer root cause like a senior engineer
+* produce a structured diagnosis
+* expose that diagnosis through an API in real time
 
-continuously collect raw system logs + machine metrics
-
-detect related abnormal events
-
-correlate them automatically
-
-infer root cause like a senior engineer
-
-produce a structured diagnosis
-
-expose that diagnosis through an API in real time
 ## Overview
 
 This project implements an **AI-powered system diagnosis agent** that continuously monitors system metrics, detects abnormal system behavior, and generates a structured root-cause diagnosis.
@@ -270,4 +265,5 @@ This project demonstrates a simplified **AI-driven system monitoring and diagnos
 * exposing results through an API
 
 The architecture is modular and can be extended for **real-world AI-based system reliability monitoring**.
+
 
